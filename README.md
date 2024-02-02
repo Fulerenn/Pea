@@ -1,6 +1,6 @@
 # Pea
 
-As repository description says - it's my attempt at writing **2D** Vulkan renderer.
+As repository description says - it's my attempt at writing **2D** deferred Vulkan renderer.
 
 I don't know if I will finish it or if I will remove it day later - It's my personal project that may be used for another one (shh :D)
 
@@ -14,7 +14,7 @@ I advise you **not to use this project** since it's just like a sandbox - howeve
 
 # Plans
 
-- Dynamic lightning
+- Dynamic lightning on sprites (normal maps?)
 - Scalability
 - Easy API to use
 - whatever stupid idea comes to my mind

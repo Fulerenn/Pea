@@ -17,6 +17,8 @@ workspace "Fulerenn"
 
     flags { "MultiProcessorCompile" }
 
+    defines { "GLFW_INCLUDE_NONE" }
+
     project "Sandbox"
         kind "ConsoleApp"
         language "C++"
@@ -28,4 +30,19 @@ workspace "Fulerenn"
         { 
             "source/**.h", 
             "source/**.cpp",
+        }
+        
+        includedirs
+        {
+            "vendor/GLFW/incl"
+        }
+
+        libdirs
+        {
+            "vendor/GLFW/lib"
+        }
+
+        links
+        {
+            "glfw3"
         }
